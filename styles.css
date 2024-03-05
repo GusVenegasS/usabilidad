@@ -14,6 +14,7 @@ nav ul {
 
 nav ul li {
     float: left;
+    border-left: 2px solid #C1C1C1
 }
 
 nav ul li a {
@@ -22,23 +23,29 @@ nav ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+   
 }
 
+nav ul li a:hover{
+    background-color: #FFC704;
+}
 nav ul li.selected a {
-    background-color: yellow;
+    background-color: #FFC704;
 }
 
 .navbar{
-    padding: 0px 25px;
     display: flex;
-    background-color: black;
     align-items: center;
+    width: 90%;
     justify-content: space-between;
-    z-index: 1;
+    margin-bottom: 90px;
 }
 
-h1{
+h2{
+    font-size: 35px;
     text-align: center;
+    color: #fff;
+    margin: 0;
 }
 
 .fondo{
@@ -50,7 +57,7 @@ h1{
 .redes{
     display: flex;
     justify-content: flex-end;
-    padding: 0 25px;
+    padding: 0;
 }
 
 .redes ul{
@@ -73,6 +80,118 @@ h1{
     text-decoration: none;
 }
 
+.redes ul li a i{
+    color: #C1C1C1;
+    font-size: 25px;
+}
+
 .redes ul li a i:hover{
     cursor: pointer;
 }
+
+.contenedorHead{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-image: url('./img/image3.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.linea{
+    width: 5%;
+    border-top: 5px solid yellow; 
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.contenedorBody{
+    background-color: #A0ACB8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.unitaxi{
+    display: flex;
+    flex-direction: column;
+    height: 481px;
+    width: 350px;
+    background-image: url('./img/unitaxi.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  
+}
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 297px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/legal.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.medicina{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 297px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/medicina.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.lubricadora{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 297px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/lubricadora.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.odonto{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 297px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/odontologia.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+

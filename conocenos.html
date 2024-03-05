@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es"> 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contáctanos - Cooperativa de Taxis de Pichincha</title>
+<link rel="stylesheet" href="conocenos.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 <body>
+
+<div aria-label="Sección de servicios: Aquí puedes encontrar información sobre la cooperativa" class="servicios">
+  
+  <div aria-label="Aquí puedes ingresar tu información para contactarnos contigo" class="conocenos">
+    
+    <h1>Contáctanos</h1>
+
+    <form action="#" method="post">
+      <div>
+        <label for="nombre" class="required">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required /><br /><br />
+      </div>
+      <div>
+        <label for="telefono" class="required">Teléfono:</label><br />
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono" required /><br /><br />
+      </div>
+      <div>
+        <label for="asunto">Asunto:</label><br />
+        <textarea id="asunto" name="asunto" placeholder="Ingrese el asunto de su mensaje" required></textarea><br /><br />
+      </div>
+      <div>
+        <label for="mensaje">Mensaje:</label><br />
+        <textarea id="mensaje" name="mensaje" placeholder="Ingrese su mensaje" required></textarea><br /><br />
+      </div>
+      <button id="enviar" type="submit">Enviar</button>
+    </form>
+    
+  </div>
+
+  
+  <div aria-label="Este es un mapa para que puedas encontrarnos" class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31918.
+    260683383167!2d-78.568334!3d-0.2424978!3m2!1i1024!2i768!4f13.1!3m3!1m2!1
+    s0x91d5990dfe955567%3A0xa1b110de5f1bae1a!2sUni%C3%B3n%20de%20Coperativas%
+    20de%20taxis%20de%20Pichincha!5e0!3m2!1ses-419!2spa!4v1709609057505!5m2!1s
+    es-419!2spa" width="600" height="450" style="border:0;" allowfullscreen=""
+    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <p aria-label="Dirección: Teniente Hugo Ortiz y Cabezas - Tribuna del Sur">Teniente Hugo Ortiz y Cabezas - Tribuna del Sur</p>
+  </div>
+
+</div>
+
+<footer>
+  <img src="./img/image 4.png" alt="Logotipo de la empresa" />
+</footer>
+
 </body>
 </html>

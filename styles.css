@@ -1,3 +1,4 @@
+
 nav {
     background-color: #fff;
     border-radius: 15px;
@@ -193,5 +194,62 @@ h2{
     justify-content: space-between;
 }
 
+.containerHistoria{
+    background-color: white;
+    height: 300px;
+    text-align: center;
+}
+
+.historia{
+    margin-top: 70px;
+    color:black;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold; 
+    font-size: 25px;
+}
 
 
+.descripcionHistoria{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal; 
+    font-size: 20px;
+    text-align: justify;
+    width: 1042px;
+    margin-left: 370px;
+    margin-top: 40px;
+}
+
+.contenedorObjects{
+    display: flex;
+    
+}
+
+.mision{
+    background-color: rgba(160, 172, 184, 0.4);
+    width: 900px;
+    height: 200px;
+}
+
+.vision{
+    background-color:rgba(160, 172, 184, 0.7) ;
+    width: 900px;
+    height: 200px;
+}
+
+.titleCard{
+    font-family: 'Nunito', sans-serif; /* Tipo de letra Nunito */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 30px; 
+    margin-top: 25px;
+    color: black;
+}
+
+.descriptionCard{
+    text-align: justify;
+    font-family: 'Nunito', sans-serif; /* Tipo de letra Nunito */
+    font-weight: normal; /* Texto en negrita */
+    font-size: 18px; 
+    width: 400px;
+    margin-left: 240px;
+    margin-top: 10px;
+}
